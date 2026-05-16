@@ -18,7 +18,7 @@ This project documents the end-to-end pipeline for quantizing and deploying Mist
 │  ┌──────────────────────────────────────────┐                      │
 │  │  bitsandbytes NF4 Quantization           │                      │
 │  │  • Quant type: NormalFloat4 (NF4)        │                      │
-│  │  • Double quantization: ✅ (saves ~0.4   │                      │
+│  │  • Double quantization:  (saves ~0.4   │                      │
 │  │    bits/param by quantizing the quant    │                      │
 │  │    constants themselves)                 │                      │
 │  │  • Compute dtype: bfloat16               │                      │
