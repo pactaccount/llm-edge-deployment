@@ -1,0 +1,15 @@
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.pth
+*.bin
+*.safetensors
+*.gguf
+benchmark_results.csv
+.env
+models/
+cache/
+.huggingface/
+wandb/
+*.log
