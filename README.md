@@ -95,12 +95,12 @@ cd llm-edge-deployment
 pip install -r requirements.txt
 ```
 
-### Run the Demo (Gradio Chat UI)
+### Run the Demo (Streamlit Chat UI)
 
 ```bash
-python app.py
+streamlit run app.py
 ```
-Opens at `http://localhost:7860` — no configuration needed. The quantized model loads once and handles all subsequent requests.
+Opens at `http://localhost:8501`. The UI provides real-time hardware profiling (VRAM, Latency, Throughput) alongside the model interaction.
 
 ### Run Inference from CLI
 
